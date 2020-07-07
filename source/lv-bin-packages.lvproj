@@ -56,6 +56,19 @@
 				<Property Name="Path[0]" Type="Path">../../distribution/working/lv-bin-7zip.zip</Property>
 				<Property Name="ZipBase" Type="Str">NI_zipbasevirtual</Property>
 			</Item>
+			<Item Name="lv-bin-git" Type="Zip File">
+				<Property Name="Absolute[0]" Type="Bool">false</Property>
+				<Property Name="BuildName" Type="Str">lv-bin-git</Property>
+				<Property Name="Comments" Type="Str"></Property>
+				<Property Name="DestinationID[0]" Type="Str">{D83303A4-4196-4D9B-8FD5-59FBED4E1118}</Property>
+				<Property Name="DestinationItemCount" Type="Int">1</Property>
+				<Property Name="DestinationName[0]" Type="Str">Destination Directory</Property>
+				<Property Name="IncludedItemCount" Type="Int">1</Property>
+				<Property Name="IncludedItems[0]" Type="Ref">/My Computer/lv-bin-git.lvlib</Property>
+				<Property Name="IncludeProject" Type="Bool">false</Property>
+				<Property Name="Path[0]" Type="Path">../../distribution/working/lv-bin-git.zip</Property>
+				<Property Name="ZipBase" Type="Str">NI_zipbasevirtual</Property>
+			</Item>
 		</Item>
 	</Item>
 </Project>
