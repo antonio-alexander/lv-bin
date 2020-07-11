@@ -69,6 +69,19 @@
 				<Property Name="Path[0]" Type="Path">../../distribution/working/lv-bin-git.zip</Property>
 				<Property Name="ZipBase" Type="Str">NI_zipbasevirtual</Property>
 			</Item>
+			<Item Name="lv-bin-wget" Type="Zip File">
+				<Property Name="Absolute[0]" Type="Bool">false</Property>
+				<Property Name="BuildName" Type="Str">lv-bin-wget</Property>
+				<Property Name="Comments" Type="Str"></Property>
+				<Property Name="DestinationID[0]" Type="Str">{B70C8CE8-BE65-45FE-9EE8-B303007E6758}</Property>
+				<Property Name="DestinationItemCount" Type="Int">1</Property>
+				<Property Name="DestinationName[0]" Type="Str">Destination Directory</Property>
+				<Property Name="IncludedItemCount" Type="Int">1</Property>
+				<Property Name="IncludedItems[0]" Type="Ref">/My Computer/lv-bin-wget.lvlib</Property>
+				<Property Name="IncludeProject" Type="Bool">false</Property>
+				<Property Name="Path[0]" Type="Path">../../distribution/working/lv-bin-wget.zip</Property>
+				<Property Name="ZipBase" Type="Str">NI_zipbasevirtual</Property>
+			</Item>
 		</Item>
 	</Item>
 </Project>
