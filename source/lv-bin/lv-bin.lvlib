@@ -41,7 +41,6 @@
 		<Item Name="_globals" Type="Folder">
 			<Item Name="fg_data_path.vi" Type="VI" URL="../private/_globals/fg_data_path.vi"/>
 		</Item>
-		<Item Name="_subvis" Type="Folder"/>
 	</Item>
 	<Item Name="public" Type="Folder">
 		<Item Name="_controls" Type="Folder">

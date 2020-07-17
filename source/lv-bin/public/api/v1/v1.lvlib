@@ -16,9 +16,12 @@
 		<Item Name="utilities" Type="Folder">
 			<Item Name="util_create_folder_recursive.vi" Type="VI" URL="../_subvis/utilities/util_create_folder_recursive.vi"/>
 			<Item Name="util_gen_cmd_error.vi" Type="VI" URL="../_subvis/utilities/util_gen_cmd_error.vi"/>
-			<Item Name="util_get_install_path.vi" Type="VI" URL="../_subvis/utilities/util_get_install_path.vi"/>
 			<Item Name="util_tokenize_string.vi" Type="VI" URL="../_subvis/utilities/util_tokenize_string.vi"/>
 		</Item>
+	</Item>
+	<Item Name="advanced" Type="Folder">
+		<Item Name="add_data_path_multiple.vi" Type="VI" URL="../advanced/add_data_path_multiple.vi"/>
+		<Item Name="add_data_path_single.vi" Type="VI" URL="../advanced/add_data_path_single.vi"/>
 	</Item>
 	<Item Name="examples" Type="Folder">
 		<Item Name="example_01_setup_path.vi" Type="VI" URL="../examples/example_01_setup_path.vi"/>
