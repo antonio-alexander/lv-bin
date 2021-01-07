@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-06-13 18:16:52" Modified_Date="2020-07-07 22:59:58" Creator="noobius" Comments="" ID="90cb771cef485a5ba25899bd25a72791">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-06-13 18:16:52" Modified_Date="2020-12-25 23:45:04" Creator="noobius" Comments="" ID="c7d184d504feaca845603c461cb0335d">
   <Library_General_Settings>
     <Package_File_Name>antonio_alexander_lib_lv_bin_7zip</Package_File_Name>
-    <Library_Version>1.0.0.4</Library_Version>
+    <Library_Version>1.0.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\working\lv-bin-7zip</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -226,7 +226,7 @@
         <Path>..\working\lv-bin-7zip\public</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9A73314E1FA0A306820EC88100CDFCC2</GUID>
+      <GUID>6F05539F3F6B29FCD8F3DBF4FA32928E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -289,7 +289,7 @@
         <Path>..\working\lv-bin-7zip\private\make_installer_exe.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7968EB76493F923C3336C29F714D9074</GUID>
+      <GUID>C639DC1B225ED381FC833027447FE2FA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -324,7 +324,7 @@
         <Path>..\working\lv-bin-7zip\public\api</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>24307F4D2497ACCD632CF80232E1930C</GUID>
+      <GUID>236902C15980ACEB655D5A46297A387D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -359,7 +359,7 @@
         <Path>..\working\lv-bin-7zip\public\api\v1</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>01D7DA984273549A26E1D21697C95E1A</GUID>
+      <GUID>28DDB5D1124A9792883C4ADBD100ADFA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -450,7 +450,7 @@
         <Path>..\working\lv-bin-7zip\public\api\v1\make_installer.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5E170EFDC9C6BB0CCBCF8A25A1CCF250</GUID>
+      <GUID>D24175AB5302016F6D0A12893434DF9B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -541,7 +541,7 @@
         <Path>..\working\lv-bin-7zip\public\api\v1\advanced\make_installer_exe_simple.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>102D2CD4291304A0B3C7D5C18BFBAA73</GUID>
+      <GUID>C149ED0E47A32FE359E321C22372CDAC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -576,7 +576,7 @@
         <Path>..\working\lv-bin-7zip\public\api\v1\examples\example_01_compress.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DD67299777366999600DC50313C8FF1F</GUID>
+      <GUID>2C7B7364A4138C293C77A0123D0EC51A</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -597,7 +597,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>..</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <GUID>208859B061F9671461AEBA3AAC507888</GUID>
+      <GUID>3EBAC02BDD1044CEE13964D1C148187B</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

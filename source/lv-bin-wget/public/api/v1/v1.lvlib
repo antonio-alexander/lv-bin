@@ -10,7 +10,9 @@
 
 </Property>
 	<Item Name="_controls" Type="Folder"/>
-	<Item Name="advanced" Type="Folder"/>
+	<Item Name="_subvis" Type="Folder">
+		<Item Name="url_to_filename.vi" Type="VI" URL="../_subvis/url_to_filename.vi"/>
+	</Item>
 	<Item Name="examples" Type="Folder">
 		<Item Name="example_01_download.vi" Type="VI" URL="../examples/example_01_download.vi"/>
 	</Item>
