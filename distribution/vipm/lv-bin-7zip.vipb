@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-06-13 18:16:52" Modified_Date="2020-12-25 23:45:04" Creator="noobius" Comments="" ID="c7d184d504feaca845603c461cb0335d">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-06-13 18:16:52" Modified_Date="2021-01-09 18:33:18" Creator="noobius" Comments="" ID="7ff97014fcd143e66a64d2ef4e66ca5e">
   <Library_General_Settings>
     <Package_File_Name>antonio_alexander_lib_lv_bin_7zip</Package_File_Name>
-    <Library_Version>1.0.0.6</Library_Version>
+    <Library_Version>1.0.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\working\lv-bin-7zip</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>antonio_alexander_lib_lv_bin &gt;=1.0.0.2</Additional_External_Dependencies>
+      <Additional_External_Dependencies>antonio_alexander_lib_lv_bin &gt;=1.1.0.1</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -29,11 +29,11 @@
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>lv-bin-7zip.vipc</VI_Package_Configuration_File>
     <Description>
-      <One_Line_Description_Summary/>
-      <Description/>
+      <One_Line_Description_Summary>lv-bin-7zip is an lv-bin package that allows compression and extraction of an archive; it also provides the ability to create "installers" that can self extract and run a specific application (e.g. setup.exe or run.bat).</One_Line_Description_Summary>
+      <Description>lv-bin-7zip is an lv-bin package that allows compression and extraction of an archive; it also provides the ability to create "installers" that can self extract and run a specific application (e.g. setup.exe or run.bat).</Description>
       <Copyright/>
       <Packager>Antonio Alexander</Packager>
-      <URL>https://github.com/antonio-alexander/lv-bin</URL>
+      <URL>https://github.com/antonio-alexander/lv-bin/tree/master/source/lv-bin-7zip</URL>
       <Release_Notes/>
     </Description>
     <Destinations>
@@ -226,7 +226,7 @@
         <Path>..\working\lv-bin-7zip\public</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6F05539F3F6B29FCD8F3DBF4FA32928E</GUID>
+      <GUID>C1660E7126D508E4E5CCB53388D606A3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -289,7 +289,7 @@
         <Path>..\working\lv-bin-7zip\private\make_installer_exe.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C639DC1B225ED381FC833027447FE2FA</GUID>
+      <GUID>548E9DD8C40488B5E76544E9002023BF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -324,7 +324,7 @@
         <Path>..\working\lv-bin-7zip\public\api</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>236902C15980ACEB655D5A46297A387D</GUID>
+      <GUID>6550EED4A27F367976C6D1BB513FC7B9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -359,7 +359,7 @@
         <Path>..\working\lv-bin-7zip\public\api\v1</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>28DDB5D1124A9792883C4ADBD100ADFA</GUID>
+      <GUID>C258537F03DF86EACD8EB98B2AE331EC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -450,7 +450,7 @@
         <Path>..\working\lv-bin-7zip\public\api\v1\make_installer.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D24175AB5302016F6D0A12893434DF9B</GUID>
+      <GUID>CF25D53D1A6C8FA57B1FC5AE4EF6C129</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -541,7 +541,7 @@
         <Path>..\working\lv-bin-7zip\public\api\v1\advanced\make_installer_exe_simple.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C149ED0E47A32FE359E321C22372CDAC</GUID>
+      <GUID>00314AC9D393B03897F5D75B54A15808</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -576,7 +576,7 @@
         <Path>..\working\lv-bin-7zip\public\api\v1\examples\example_01_compress.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2C7B7364A4138C293C77A0123D0EC51A</GUID>
+      <GUID>144833D2F4CF5767AEBA42883B1E4546</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -597,7 +597,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>..</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <GUID>3EBAC02BDD1044CEE13964D1C148187B</GUID>
+      <GUID>F8027620B399DC698DED2F0EC95E971F</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

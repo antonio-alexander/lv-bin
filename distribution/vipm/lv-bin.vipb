@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-06-13 17:34:47" Modified_Date="2020-12-24 20:30:44" Creator="noobius" Comments="" ID="1b4fcdb5abff65327698e12dfe36a185">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-06-13 17:34:47" Modified_Date="2021-01-09 18:28:19" Creator="noobius" Comments="" ID="a3676e7c138704c611f1048926690dca">
   <Library_General_Settings>
     <Package_File_Name>Antonio_Alexander_lib_lv_bin</Package_File_Name>
-    <Library_Version>1.0.0.8</Library_Version>
+    <Library_Version>1.1.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\working\lv-bin</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -35,7 +35,7 @@ lv-bin implements a kind of internal versioning by namespacing major versions of
       <Copyright/>
       <Packager>Antonio Alexander</Packager>
       <URL>https://github.com/antonio-alexander/lv-bin</URL>
-      <Release_Notes/>
+      <Release_Notes>- Updated the cmd generate utility to provide feedback on non-zero code or non-zero standard error.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -227,7 +227,7 @@ lv-bin implements a kind of internal versioning by namespacing major versions of
         <Path>..\working\lv-bin\v1</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B53CE71F148E7E1AB2FD51E403AD65F8</GUID>
+      <GUID>0892B66728D716AB44A06CEA5A04FBB7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -360,7 +360,7 @@ lv-bin implements a kind of internal versioning by namespacing major versions of
         <Path>..\working\lv-bin\public\api\v1\generate_temp_directory.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F28CEAFF0C5DEBAC70408013D1E29CD7</GUID>
+      <GUID>2631CA9E4C4E21CC0310A87A5CB680EA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -409,7 +409,7 @@ lv-bin implements a kind of internal versioning by namespacing major versions of
         <Path>..\working\lv-bin\public\api\v1\examples\example_02_generate_temp_directory.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>419ACC45861BF76CB06F4C76A227A2CB</GUID>
+      <GUID>9F82C8AC13AD265F2FC534273EE51DC8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -458,7 +458,7 @@ lv-bin implements a kind of internal versioning by namespacing major versions of
         <Path>..\working\lv-bin\public\api\v1\advanced\add_data_path_single.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>544A45F76262FE190369BF68A09B9CD7</GUID>
+      <GUID>52EE3149AE81602712F4166631C7EFED</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -521,7 +521,7 @@ lv-bin implements a kind of internal versioning by namespacing major versions of
         <Path>..\working\lv-bin\public\api\v1\_subvis\utilities\util_tokenize_string.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A119AA7CBC62611A0DC098862A844C95</GUID>
+      <GUID>891BE6D440B531F2286DE5F2B9EEF42F</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -570,7 +570,7 @@ lv-bin implements a kind of internal versioning by namespacing major versions of
         <Path>..\working\lv-bin\v1</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B35A7834A67D8DD1615F42F069706CB2</GUID>
+      <GUID>C3191AA2D5D824BC244A3A9ED4440382</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -605,7 +605,7 @@ lv-bin implements a kind of internal versioning by namespacing major versions of
         <Path>..\working\lv-bin\public\api\v1\_controls\temp_dir_config.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>948DFAA564D5864E8F42DBA0D196C402</GUID>
+      <GUID>5DBAF314FF37BCF70CD172C9A07D9FC0</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
