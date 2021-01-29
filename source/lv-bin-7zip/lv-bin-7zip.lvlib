@@ -35,8 +35,11 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="_controls" Type="Folder"/>
+		<Item Name="_controls" Type="Folder">
+			<Item Name="files.ctl" Type="VI" URL="../private/_controls/files.ctl"/>
+		</Item>
 		<Item Name="_globals" Type="Folder">
+			<Item Name="fg_file.vi" Type="VI" URL="../private/_globals/fg_file.vi"/>
 			<Item Name="fg_temp_dir_config.vi" Type="VI" URL="../private/_globals/fg_temp_dir_config.vi"/>
 		</Item>
 		<Item Name="_subvis" Type="Folder">
@@ -45,8 +48,6 @@
 				<Item Name="util_create_installer.vi" Type="VI" URL="../private/_subvis/utilities/util_create_installer.vi"/>
 				<Item Name="util_get_filename.vi" Type="VI" URL="../private/_subvis/utilities/util_get_filename.vi"/>
 			</Item>
-			<Item Name="get_path_7za.vi" Type="VI" URL="../private/_subvis/get_path_7za.vi"/>
-			<Item Name="get_path_7zxa.vi" Type="VI" URL="../private/_subvis/get_path_7zxa.vi"/>
 			<Item Name="get_path_exe.vi" Type="VI" URL="../private/_subvis/get_path_exe.vi"/>
 			<Item Name="get_path_sfx.vi" Type="VI" URL="../private/_subvis/get_path_sfx.vi"/>
 		</Item>
@@ -59,6 +60,7 @@
 			<Item Name="error.ctl" Type="VI" URL="../public/_controls/error.ctl"/>
 		</Item>
 		<Item Name="_subvis" Type="Folder">
+			<Item Name="add_system_path.vi" Type="VI" URL="../public/_subvis/add_system_path.vi"/>
 			<Item Name="generate_error.vi" Type="VI" URL="../public/_subvis/generate_error.vi"/>
 		</Item>
 		<Item Name="api" Type="Folder">

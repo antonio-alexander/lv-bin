@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-06-13 18:16:52" Modified_Date="2021-01-09 18:33:18" Creator="noobius" Comments="" ID="7ff97014fcd143e66a64d2ef4e66ca5e">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-06-13 18:16:52" Modified_Date="2021-01-28 23:01:34" Creator="noobius" Comments="" ID="2a199e97c909e89d833a2fb775c9e95d">
   <Library_General_Settings>
     <Package_File_Name>antonio_alexander_lib_lv_bin_7zip</Package_File_Name>
-    <Library_Version>1.0.0.7</Library_Version>
+    <Library_Version>1.1.0.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\working\lv-bin-7zip</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -34,7 +34,8 @@
       <Copyright/>
       <Packager>Antonio Alexander</Packager>
       <URL>https://github.com/antonio-alexander/lv-bin/tree/master/source/lv-bin-7zip</URL>
-      <Release_Notes/>
+      <Release_Notes>- Revamped the private path functions
+- Added add_system_path.vi which will pull the paths from the environmental variables and attempt to resolve the stored files.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -226,7 +227,7 @@
         <Path>..\working\lv-bin-7zip\public</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C1660E7126D508E4E5CCB53388D606A3</GUID>
+      <GUID>CAEEA7149B7C420665F3463DE7EF0248</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -289,7 +290,7 @@
         <Path>..\working\lv-bin-7zip\private\make_installer_exe.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>548E9DD8C40488B5E76544E9002023BF</GUID>
+      <GUID>5A749FE6E85DE6356F0BE8A4EA3439B5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -324,7 +325,7 @@
         <Path>..\working\lv-bin-7zip\public\api</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6550EED4A27F367976C6D1BB513FC7B9</GUID>
+      <GUID>71016F346BA5D1200DAE67832E748D62</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -359,7 +360,7 @@
         <Path>..\working\lv-bin-7zip\public\api\v1</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C258537F03DF86EACD8EB98B2AE331EC</GUID>
+      <GUID>FF9CA6BAB63CE0B30C3B3EED39D8E98A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -450,7 +451,7 @@
         <Path>..\working\lv-bin-7zip\public\api\v1\make_installer.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CF25D53D1A6C8FA57B1FC5AE4EF6C129</GUID>
+      <GUID>C25F2AC077A71EE24929B889911325B0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -541,7 +542,7 @@
         <Path>..\working\lv-bin-7zip\public\api\v1\advanced\make_installer_exe_simple.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>00314AC9D393B03897F5D75B54A15808</GUID>
+      <GUID>8E1454EBFFFFEBA02A2FDB126B61FD3B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -576,7 +577,7 @@
         <Path>..\working\lv-bin-7zip\public\api\v1\examples\example_01_compress.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>144833D2F4CF5767AEBA42883B1E4546</GUID>
+      <GUID>4F7E791F410207EF57218000F0D16038</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -597,7 +598,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>..</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <GUID>F8027620B399DC698DED2F0EC95E971F</GUID>
+      <GUID>6E1D85166BA794DFDCC5013666C057F2</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

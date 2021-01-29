@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-06-13 17:34:47" Modified_Date="2021-01-28 21:03:07" Creator="noobius" Comments="" ID="2de1423d107f10636da8e5c980cfa00a">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-06-13 17:34:47" Modified_Date="2021-01-28 22:20:25" Creator="noobius" Comments="" ID="b89492315edb8dcab5a92af7a4d64f4f">
   <Library_General_Settings>
     <Package_File_Name>Antonio_Alexander_lib_lv_bin</Package_File_Name>
-    <Library_Version>1.1.0.3</Library_Version>
+    <Library_Version>1.1.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\working\lv-bin</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -229,7 +229,7 @@ lv-bin implements a kind of internal versioning by namespacing major versions of
         <Path>..\working\lv-bin\v1</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>61539D829B7B3077895092020C459D1C</GUID>
+      <GUID>3A5074600B2527833F1070FD3C50DF15</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -362,7 +362,7 @@ lv-bin implements a kind of internal versioning by namespacing major versions of
         <Path>..\working\lv-bin\public\api\v1\generate_temp_directory.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0A539FE7C20C7875C87D3E9E6872CC0F</GUID>
+      <GUID>91803D123CFA52C1A0360713BE157C89</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -411,7 +411,7 @@ lv-bin implements a kind of internal versioning by namespacing major versions of
         <Path>..\working\lv-bin\public\api\v1\examples\example_02_generate_temp_directory.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FD8BACE42D6C10AFA8256A300673B58D</GUID>
+      <GUID>387760E0A887D3E60874002E6CE0EE1A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -460,7 +460,7 @@ lv-bin implements a kind of internal versioning by namespacing major versions of
         <Path>..\working\lv-bin\public\api\v1\advanced\add_data_path_single.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>01676F3D487B945CA2D3CBC28FEA45D6</GUID>
+      <GUID>176F9E6F04A4262BB6ABCB341385EABA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -523,7 +523,7 @@ lv-bin implements a kind of internal versioning by namespacing major versions of
         <Path>..\working\lv-bin\public\api\v1\_subvis\utilities\util_tokenize_string.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AF0D08D10D04828FE3D0C46B848473DC</GUID>
+      <GUID>72B225FEBE5665D263F71E2637962A71</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -572,7 +572,7 @@ lv-bin implements a kind of internal versioning by namespacing major versions of
         <Path>..\working\lv-bin\v1</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1940A4FED51F348B23506C2927922195</GUID>
+      <GUID>06E6998B3D829A0EBEC499A193C41726</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -607,7 +607,7 @@ lv-bin implements a kind of internal versioning by namespacing major versions of
         <Path>..\working\lv-bin\public\api\v1\_controls\temp_dir_config.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>10805A476922316F4676D752CDF477A7</GUID>
+      <GUID>8326A9F3693B4020DD5021C9004CDE56</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
