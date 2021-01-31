@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-06-24 20:06:41" Modified_Date="2020-06-24 20:52:56" Creator="noobius" Comments="" ID="77cd344aa047eb3d713528f462d04cbb">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-06-24 20:06:41" Modified_Date="2021-01-29 13:08:14" Creator="noobius" Comments="" ID="542df6224d6ad54a00483171a043c826">
   <Library_General_Settings>
     <Package_File_Name>antonio_alexander_lib_lv_bin_git</Package_File_Name>
-    <Library_Version>0.9.0.3</Library_Version>
+    <Library_Version>0.10.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\working\lv-bin-git</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -32,7 +32,7 @@
       <Copyright/>
       <Packager>Antonio Alexander</Packager>
       <URL>https://github.com/antonio-alexander/lv-bin</URL>
-      <Release_Notes/>
+      <Release_Notes>- Added add_system_path.vi which will pull the paths from the environmental variables and attempt to resolve the stored files.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -210,7 +210,7 @@
         <Path>..\working\lv-bin-git\public</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1BEF45793B9D423344FA16869B8C22A2</GUID>
+      <GUID>FDAE469ABBE1F924D74FD1B7BA3E176A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -245,7 +245,7 @@
         <Path>..\working\lv-bin-git\public\api</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5E2743835189089FDD7C1783F603FF2E</GUID>
+      <GUID>B7EEE714D863A7295BDCE8C7B2B292F3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -280,7 +280,7 @@
         <Path>..\working\lv-bin-git\public\api\v1</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>22344F1123548A5B41A3BB079254E324</GUID>
+      <GUID>A423C963332D1B7A0D6087AD1FA82192</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -315,7 +315,7 @@
         <Path>..\working\lv-bin-git\public\api\v1\get_commit_hash.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B3D600D43B8A4F4FCA1031D2C767C88A</GUID>
+      <GUID>6C61FDE88AF98A3704765505724EFF86</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -336,7 +336,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>..</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <GUID>B4855B5F39382F4C38C51D7C05BE4E34</GUID>
+      <GUID>35CD0946D72341B514467A03AA52DB1E</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
