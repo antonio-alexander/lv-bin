@@ -30,6 +30,7 @@
 		<Item Name="example_02_generate_temp_directory.vi" Type="VI" URL="../examples/example_02_generate_temp_directory.vi"/>
 	</Item>
 	<Item Name="add_data_path.vi" Type="VI" URL="../add_data_path.vi"/>
+	<Item Name="clear_data_paths.vi" Type="VI" URL="../clear_data_paths.vi"/>
 	<Item Name="generate_temp_directory.vi" Type="VI" URL="../generate_temp_directory.vi"/>
 	<Item Name="get_system_paths.vi" Type="VI" URL="../get_system_paths.vi"/>
 	<Item Name="read_data_paths.vi" Type="VI" URL="../read_data_paths.vi"/>
