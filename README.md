@@ -14,14 +14,9 @@ lv-bin only contains auxiliary functionality, mostly the ability to generate tem
 
 For anyone importing the package to create their own lv-bin libraries, note that the "api" is separated into a v1 package to attempt to maintain the api for major vesion 1, in the event that non-forward compatible changes are added, previous functionality should be maintained and new features with a different namespace (e.g. v2).
 
-## Available packages/Additional Documentation
+## __lv-bin-template__
 
 Packages are self-contained, their main dependency is the lv-bin package (this package). Keep in mind that binaries ARE NOT bundled with the application, you'll need to source them yourself (instructions within their readmes).
-
-* lv-bin: base package used as an internal dependency for the other packages, it's documentation is available in [source/lv-bin/README.md](source/lv-bin/README.md)
-* lv-bin-7zip: gives you the ability to extract and compress archives in supported formats (e.g. 7zip, zip), it's documentation is avilable in [source/lv-bin-7zip/README.md](source/lv-bin-7zip/README.md)
-* lv-bin-wget: gives you the ability to download a file from the internet, it's documentation is available in [source/lv-bin-wget/README.md](source/lv-bin-wget/README.md)
-* lv-bin-git: (currently) only gives you the ability to get the git commit hash of a given directory, it's documentation is avialable in [source/lv-bin-git/README.md](source/lv-bin-git/README.md)
 
 ## Disclaimers
 
