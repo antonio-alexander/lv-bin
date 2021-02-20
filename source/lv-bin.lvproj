@@ -12,6 +12,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="lv-bin-template.lvlib" Type="Library" URL="//VBOXSVR/source_control/github.com/antonio-alexander/lv-bin/source/lv-bin-template/lv-bin-template.lvlib"/>
 		<Item Name="lv-bin.lvlib" Type="Library" URL="//VBOXSVR/source_control/github.com/antonio-alexander/lv-bin/source/lv-bin/lv-bin.lvlib"/>
+		<Item Name="save_template_as.vi" Type="VI" URL="//VBOXSVR/source_control/github.com/antonio-alexander/lv-bin/source/lv-bin/public/save_template_as.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
@@ -35,9 +36,10 @@
 				<Property Name="DestinationID[0]" Type="Str">{EFB03EC7-5B9E-4156-9E79-BF3D0A8422D9}</Property>
 				<Property Name="DestinationItemCount" Type="Int">1</Property>
 				<Property Name="DestinationName[0]" Type="Str">Destination Directory</Property>
-				<Property Name="IncludedItemCount" Type="Int">2</Property>
+				<Property Name="IncludedItemCount" Type="Int">3</Property>
 				<Property Name="IncludedItems[0]" Type="Ref">/My Computer/lv-bin-template.lvlib</Property>
 				<Property Name="IncludedItems[1]" Type="Ref">/My Computer/lv-bin.lvlib</Property>
+				<Property Name="IncludedItems[2]" Type="Ref">/My Computer/save_template_as.vi</Property>
 				<Property Name="IncludeProject" Type="Bool">false</Property>
 				<Property Name="Path[0]" Type="Path">../../distribution/working/lv-bin.zip</Property>
 				<Property Name="ZipBase" Type="Str">NI_zipbasevirtual</Property>
