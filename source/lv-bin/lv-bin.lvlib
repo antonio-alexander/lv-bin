@@ -52,5 +52,6 @@
 		<Item Name="api" Type="Folder">
 			<Item Name="v1.lvlib" Type="Library" URL="../public/api/v1/v1.lvlib"/>
 		</Item>
+		<Item Name="save_template_as.vi" Type="VI" URL="../public/save_template_as.vi"/>
 	</Item>
 </Library>

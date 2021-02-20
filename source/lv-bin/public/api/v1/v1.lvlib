@@ -13,12 +13,10 @@
 		<Item Name="temp_dir_config.ctl" Type="VI" URL="../_controls/temp_dir_config.ctl"/>
 	</Item>
 	<Item Name="_subvis" Type="Folder">
-		<Item Name="utilities" Type="Folder">
-			<Item Name="util_create_folder_recursive.vi" Type="VI" URL="../_subvis/utilities/util_create_folder_recursive.vi"/>
-			<Item Name="util_find_system_path.vi" Type="VI" URL="../_subvis/utilities/util_find_system_path.vi"/>
-			<Item Name="util_gen_cmd_error.vi" Type="VI" URL="../_subvis/utilities/util_gen_cmd_error.vi"/>
-			<Item Name="util_tokenize_string.vi" Type="VI" URL="../_subvis/utilities/util_tokenize_string.vi"/>
-		</Item>
+		<Item Name="util_create_folder_recursive.vi" Type="VI" URL="../_subvis/util_create_folder_recursive.vi"/>
+		<Item Name="util_find_system_path.vi" Type="VI" URL="../_subvis/util_find_system_path.vi"/>
+		<Item Name="util_gen_cmd_error.vi" Type="VI" URL="../_subvis/util_gen_cmd_error.vi"/>
+		<Item Name="util_tokenize_string.vi" Type="VI" URL="../_subvis/util_tokenize_string.vi"/>
 	</Item>
 	<Item Name="advanced" Type="Folder">
 		<Item Name="add_data_path_multiple.vi" Type="VI" URL="../advanced/add_data_path_multiple.vi"/>

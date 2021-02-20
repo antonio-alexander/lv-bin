@@ -1,6 +1,6 @@
 # lv-bin
 
-A collection of labview utilities which reference self-contained binaries and/or commands available in Windows. Directly, it doesn't do a whole lot, but enables basic functionality in other lv-bin packages.
+A package provided common dependencies for a collection of labview utilities which reference self-contained binaries and/or commands available in Windows. It doesn't do anything on its own, but it enables the basic functionality of the other lv-bin packages.
 
 ## Description
 
